@@ -32,7 +32,8 @@ defmodule ReqPhotonGeocoding.MixProject do
   defp deps do
     [
       {:req, "~> 0.5.0"},
-      {:plug, "~> 1.0", only: :test}
+      {:plug, "~> 1.0", only: :test},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
